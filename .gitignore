@@ -30,3 +30,6 @@
 /config/master.key
 
 .secret
+
+# Ignore Spring files.
+/spring/*.pid
