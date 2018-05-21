@@ -12,6 +12,7 @@ $state-danger-text:              #a94442 !default;
 }
 
 
+
 .center {
   text-align: center;
   h1 {
@@ -143,8 +144,8 @@ aside {
 
 input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
-  width: 100%;
   margin-bottom: 15px;
+  width: 100%;
   @include box_sizing;
 }
 
@@ -165,4 +166,12 @@ input {
   .form-control {
     color: $state-danger-text;
   }
+}
+
+.form-check {
+  margin-bottom: 15px;
+}
+
+#session_remember_me {
+  width: auto;
 }
